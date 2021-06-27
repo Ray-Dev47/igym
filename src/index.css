@@ -41,7 +41,7 @@ input{
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./images/banner.png');
+    background-image: url('./images/body-img.jpg');
     position: relative;
     z-index: 0;
 }
@@ -532,6 +532,11 @@ nav .menu-btn,
         }
         .logo img{
             width:70px;
+        }
+        .logo{ 
+            width: 70px;
+            font-weight: 700;
+            font-size: 26px;   
         }
         .header-btns{
             margin: 0;
