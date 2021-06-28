@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Header from './components/Header'
+import Header from './components/Header';
+import Feature from './components/Feature';
+import Offer from './components/Offer';
 
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <div>
       <Navbar />
       <Header />
+      <Feature />
+      <Offer />
     </div>
   );
 }

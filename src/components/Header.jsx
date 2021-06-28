@@ -11,7 +11,6 @@ function Header() {
                     <a href="#" className="header-btn">JOIN US</a>
                 </div>
             </div>
-
         </div>
     )
 }
