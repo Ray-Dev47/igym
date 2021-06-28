@@ -18,20 +18,20 @@ function Navbar() {
 
     return (
         <nav className={nav ? 'nav active' : "nav"}>
-            <Link to='#' className="logo">
+            <Link to='main' className="logo">
                 {/* <img src={logo} alt="logo" /> */}
-                <span className="logo">LOGO</span>
+                <span className="logo">LO<span className="logo-span">GO</span></span>
             </Link>
             <input className="menu-btn" type="checkbox"  id="menu-btn"/>
             <label className="menu-icon" htmlFor="menu-btn">
                 <span className="nav-icon"></span>
             </label>
             <ul className="menu">
-                <li to="#"><Link>Home</Link></li>
-                <li to="#"><Link>Features</Link></li>
-                <li to="#"><Link>About</Link></li>
-                <li to="#"><Link>Pricing</Link></li>
-                <li to="#"><Link>Contact</Link></li>
+                <li><Link to="main">Home</Link></li>
+                <li><Link to="features">Features</Link></li>
+                <li><Link to="about">About</Link></li>
+                <li><Link to="presentation">Offer</Link></li>
+                <li><Link to="contact">Contact</Link></li>
                
             </ul>
         </nav>
